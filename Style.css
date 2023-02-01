@@ -1,0 +1,26 @@
+body{
+    display: grid;
+    grid-template-columns: 16.5vw 16.5vw;
+    grid-template-rows: 20.5vh 20.5vh;
+    grid-template-areas:
+    "main1 main2"
+    "main3 main4" ;
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+}
+
+header{
+    background: red;
+}
+main{
+    background: blue;
+}
+
+aside{
+    background: green;
+}
+
+footer{
+    background:yellow;
+}
